@@ -1,0 +1,45 @@
+{
+ "pages" :[
+   "pages/index/index",
+    "pages/messages/messages",
+    "pages/profile/profile",
+    "pages/list/list",
+    "pages/detail/detail"
+ ],
+ "window": {
+  "navigationBarBackgroundColor": "#3a4861",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "生活app",
+  "backgroundColor": "#bcc0c9",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false,
+  "onReachBottomDistance": 50
+},
+"tabBar": {
+  "color": "#999",
+  "selectedColor": "skyblue",
+  "backgroundColor": "#fff",
+  "borderStyle": "black",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/image/tabs/home.png",
+      "selectedIconPath": "assets/image/tabs/home-active.png"
+    },
+    {
+      "pagePath": "pages/messages/messages",
+      "text": "消息",
+      "iconPath": "assets/image/tabs/message.png",
+      "selectedIconPath": "assets/image/tabs/message-active.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "assets/image/tabs/profile.png",
+      "selectedIconPath": "assets/image/tabs/profile-active.png"
+    }
+  ],
+  "position": "bottom"
+}
+}
